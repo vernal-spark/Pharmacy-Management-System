@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.menu {
+  border-bottom: 1px solid black;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ff4757;
+  font-weight: bold;
+
+}
+
+.menu ul li a:hover {
+  color: #ff6b81;
+}
+
+
+/* Css for main content */
+
+
+.main-content {
+
+  background-color: #f1f2f6;
+  padding-bottom: 3%;
+}
+
+.col-4 {
+  background-color: white;
+  padding: 1%;
+  margin: 1%;
+  width: 20%;
+
+}
+
+.tbl-category {
+  width: 100%;
+}
+
+.tbl-category tr th {
+  padding: 10px;;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+.tbl-category tr td {
+  padding: 10px;
+}
+
+.add-admin-btn {
+  background-color: blue;
+  color: white;
+  margin-left: 120px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.update-admin-btn {
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#change-passwd {
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.delete-admin-btn {
+  background-color: red;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+  margin-left: 5px
+}
+
+.menu-wrap {
+  display: flex;
+
+}
+
+.add-admin-tbl {
+  border-spacing: 30px;
+}
+
+.tbl-category{
+  white-space: nowrap;
+  text-align: left;
+  border-spacing: 30px;
+}
+/* .data-tbl-category{
+display: flex;
+} */
+
+/* CSS for footer */
+.footer {
+  background-color: #ff4757;
+  color: white;
+}
+
+/* CSS for login */
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: black;
+  background-color: #ff4757;
+  margin: 100px 500px;
+  border-radius: 10px;
+}
+.login .tbl tr td {
+  padding: 20px;
+}
+.fields{
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+.submit-login{
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 139px;
+  margin-top: 30px;
+}
+
+
+/* Purchase */
+.purchase{
+  display: block;
+}
